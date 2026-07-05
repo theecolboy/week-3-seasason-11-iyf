@@ -4,7 +4,7 @@ This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Ac
 
 ## Live Demo
 
-[View Live Site](https://stephen-kamande.github.io/iyf-s11-week-03-stephen-kamande)
+[View Live Site](https://theecolboy.github.io/week-3-seasason-11-iyf)
 
 ## Screenshot
 
@@ -31,7 +31,7 @@ This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Ac
 ## Project Structure
 
 ```text
-iyf-s11-week-03-stephen-kamande/
+week-3-seasason-11-iyf/
 |-- index.html
 |-- about.html
 |-- projects.html
@@ -47,8 +47,8 @@ iyf-s11-week-03-stephen-kamande/
 |-- js/
 |   `-- main.js
 |-- images/
-|   |-- portrait.svg
-|   `-- screenshot.svg
+|   |-- portrait.png
+|   `-- screenshot.png
 |-- docs/
 |   `-- terminal-answers.md
 |-- scripts/
