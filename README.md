@@ -72,7 +72,7 @@ This week I practiced navigating folders from the terminal, creating and moving 
 
 ## Contact
 
-- Email: stephen.kamande@example.com
+- Email: kamandestephen31@gmail.com
 - LinkedIn: [Stephen Kamande](https://linkedin.com/in/stephen-kamande)
 - GitHub: [@stephen-kamande](https://github.com/stephen-kamande)
 
