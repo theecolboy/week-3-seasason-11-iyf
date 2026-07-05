@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Stephen Kamande.">
+  <title>Contact | Stephen Kamande</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Stephen Kamande</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Menu</span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-header">
+      <p class="eyebrow">Contact</p>
+      <h1>Let us connect</h1>
+      <p>Use the form layout below or reach me through the links listed beside it.</p>
+    </section>
+
+    <section class="contact-layout">
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button class="button primary" type="submit">Send Message</button>
+      </form>
+
+      <aside class="panel contact-details">
+        <h2>Details</h2>
+        <p>Email: stephen.kamande@example.com</p>
+        <p>GitHub: @stephen-kamande</p>
+        <p>LinkedIn: Stephen Kamande</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Stephen Kamande. Built for IYF Weekend Academy.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

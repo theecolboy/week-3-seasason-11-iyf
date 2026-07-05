@@ -1,0 +1,18 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stephen Kamande portfolio illustration</title>
+  <desc id="desc">A stylized workspace illustration with code panels and terminal cards.</desc>
+  <rect width="900" height="720" fill="#E7F3F1"/>
+  <rect x="90" y="86" width="720" height="520" rx="24" fill="#FFFFFF"/>
+  <rect x="132" y="132" width="390" height="54" rx="8" fill="#0F766E"/>
+  <rect x="132" y="218" width="636" height="44" rx="8" fill="#F2F5F3"/>
+  <rect x="132" y="286" width="280" height="44" rx="8" fill="#F2F5F3"/>
+  <rect x="438" y="286" width="330" height="44" rx="8" fill="#F2F5F3"/>
+  <rect x="132" y="354" width="636" height="148" rx="12" fill="#1D2523"/>
+  <path d="M174 408L220 454L174 500" stroke="#D97706" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="254" y="442" width="170" height="20" rx="10" fill="#E7F3F1"/>
+  <circle cx="668" cy="438" r="98" fill="#0F766E"/>
+  <circle cx="668" cy="398" r="34" fill="#F7F8F5"/>
+  <path d="M598 506C612 466 638 446 668 446C698 446 724 466 738 506" fill="#F7F8F5"/>
+  <rect x="132" y="532" width="184" height="26" rx="13" fill="#D97706"/>
+  <rect x="340" y="532" width="122" height="26" rx="13" fill="#D9E0DC"/>
+</svg>
