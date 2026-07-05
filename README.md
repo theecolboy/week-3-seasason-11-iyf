@@ -8,7 +8,7 @@ This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Ac
 
 ## Screenshot
 
-![Project Screenshot](./images/screenshot.svg)
+![Project Screenshot](./images/screenshot.png)
 
 ## Features
 
