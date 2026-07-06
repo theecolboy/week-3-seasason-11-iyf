@@ -1,6 +1,6 @@
 # Stephen Kamande - Week 03 Project
 
-This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Academy. It demonstrates terminal-based project setup, file operations, Git workflow practice, and a professional multi-page portfolio website.
+This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Academy. It demonstrates terminal-based project setup, file operations, Git workflow practice, and a polished multi-page portfolio website.
 
 ## Live Demo
 
@@ -14,6 +14,7 @@ This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Ac
 
 - Responsive multi-page portfolio
 - Accessible navigation, forms, labels, and focus states
+- Polished blue visual theme with professional page copy
 - Project cards and learning highlights
 - Contact form layout
 - Terminal and Git workflow documentation
@@ -72,9 +73,9 @@ This week I practiced navigating folders from the terminal, creating and moving 
 
 ## Contact
 
-- Email: kamandestephennd31@gmail.com
-- LinkedIn: [Stephen Kamande](https://linkedin.com/in/stephen-kamande)
-- GitHub: [@stephen-kamande](https://github.com/stephen-kamande)
+- Email: [kamandestephennd31@gmail.com](mailto:kamandestephennd31@gmail.com)
+- GitHub: [@theecolboy](https://github.com/theecolboy)
+- Repository: [week-3-seasason-11-iyf](https://github.com/theecolboy/week-3-seasason-11-iyf)
 
 ## License
 

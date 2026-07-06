@@ -21,7 +21,9 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    linear-gradient(180deg, rgba(219, 234, 254, 0.92) 0, rgba(245, 248, 255, 0) 24rem),
+    var(--bg);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
@@ -64,6 +66,7 @@ a {
 .brand {
   font-weight: 800;
   text-decoration: none;
+  color: var(--primary-dark);
 }
 
 .site-nav {
@@ -178,6 +181,7 @@ h3 {
   font-weight: 800;
   text-decoration: none;
   cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
 .button.primary {
@@ -188,12 +192,20 @@ h3 {
 .button.primary:hover,
 .button.primary:focus-visible {
   background: var(--primary-dark);
+  transform: translateY(-1px);
 }
 
 .button.secondary {
   background: var(--surface);
   border-color: var(--line);
   color: var(--text);
+}
+
+.button.secondary:hover,
+.button.secondary:focus-visible {
+  border-color: var(--primary);
+  color: var(--primary-dark);
+  transform: translateY(-1px);
 }
 
 .hero-visual {
@@ -205,6 +217,32 @@ h3 {
   margin-inline: auto;
   border-radius: 8px;
   box-shadow: var(--shadow);
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 2rem 0 0;
+}
+
+.hero-stats div {
+  padding: 0.9rem;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.hero-stats dt {
+  color: var(--primary-dark);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.hero-stats dd {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .section,
@@ -239,6 +277,18 @@ h3 {
 .project-card,
 .panel {
   padding: 1.25rem;
+}
+
+.feature-card,
+.project-card {
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.feature-card:hover,
+.project-card:hover {
+  border-color: #9ec5fe;
+  box-shadow: 0 14px 34px rgba(37, 99, 235, 0.14);
+  transform: translateY(-2px);
 }
 
 .feature-card p,
@@ -298,6 +348,17 @@ h3 {
   margin: 0.45rem 0;
 }
 
+.contact-details a {
+  color: var(--primary-dark);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-details a:hover,
+.contact-details a:focus-visible {
+  text-decoration: underline;
+}
+
 .site-footer {
   padding: 1.5rem clamp(1rem, 4vw, 4rem);
   border-top: 1px solid var(--line);
@@ -350,6 +411,10 @@ h3 {
 
   .feature-grid,
   .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-stats {
     grid-template-columns: 1fr;
   }
 }
