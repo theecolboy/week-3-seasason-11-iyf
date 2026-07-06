@@ -4,7 +4,7 @@
 
 ```powershell
 git config --global user.name "Stephen Kamande"
-git config --global user.email "stephen.kamande@example.com"
+git config --global user.email "kamandestephennd31@gmail.com"
 git config --list
 ```
 
@@ -33,7 +33,7 @@ git branch -d feature/about-page
 ## Remote Workflow
 
 ```powershell
-git remote add origin https://github.com/stephen-kamande/iyf-s11-week-03-stephen-kamande.git
+git remote add origin https://github.com/theecolboy/week-3-seasason-11-iyf.git
 git remote -v
 git push -u origin main
 git pull origin main

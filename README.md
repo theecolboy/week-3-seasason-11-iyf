@@ -4,7 +4,7 @@ This repository is my Week 03 Tools & Workflow submission for the IYF Weekend Ac
 
 ## Live Demo
 
-[View Live Site](https://theecolboy.github.io/week-3-seasason-11-iyf)
+[View the live blue-themed portfolio](https://theecolboy.github.io/week-3-seasason-11-iyf/)
 
 ## Screenshot
 
@@ -68,11 +68,11 @@ This week I practiced navigating folders from the terminal, creating and moving 
 - [ ] Add form submission with a backend service
 - [ ] Add project filtering with JavaScript
 - [ ] Add a dark mode toggle
-- [ ] Publish the site with GitHub Pages
+- [x] Publish the site with GitHub Pages
 
 ## Contact
 
-- Email: kamandestephen31@gmail.com
+- Email: kamandestephennd31@gmail.com
 - LinkedIn: [Stephen Kamande](https://linkedin.com/in/stephen-kamande)
 - GitHub: [@stephen-kamande](https://github.com/stephen-kamande)
 

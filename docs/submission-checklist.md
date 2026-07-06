@@ -11,6 +11,6 @@
 Before pushing to GitHub:
 
 ```powershell
-git remote add origin https://github.com/stephen-kamande/iyf-s11-week-03-stephen-kamande.git
+git remote add origin https://github.com/theecolboy/week-3-seasason-11-iyf.git
 git push -u origin main
 ```
